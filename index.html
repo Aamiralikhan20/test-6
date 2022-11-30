@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Api</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./image.ico" type="image/x-icon">
+</head>
+<body>
+   <div class="container">
+      <div class="we-api">
+          <div class="head4"> <h1 class="heading1" > Weather -Api </h1> </div>
+          <div class="in1"> 
+            <input type="text" id="location" placeholder="Location " style="width:1128px; height: 30px;color: white; background-color: black;font-size: medium;" >
+            <div class = "c" id="location-warning" style="color: white; font-size: small;width:1128px; height: 30px; "> </div>
+         </div>
+          <div class="in2"> 
+             <input type="text" id="acestoken" placeholder="Access Token " style="width:1128px; height: 30px; color:white; background-color: black;font-size: medium;">
+             <div class = "c" id="acestoken - warning" style="color: white;font-size: small;width:1128px; height: 30px; " > </div>
+             </div>
+          <div class="b1"> <button style="width: 200px; height: 40px;" onclick="myFunction()" > Submit </button></div>
+      </div>
+      </div>
+  <div class="we-data">
+        <div class="wehead"> <h2> Weather Data </h2></div>
+        <div class="bord">
+              <div class="contents"> 
+                  <div class="loc"> Location : </div>
+
+              </div>
+              <div class="contents"> 
+                <div class="loc"> Lat : </div>
+                <div class="contents"> 
+                    <div class="loc"> Time Zone : </div>
+    
+                </div>
+            </div>
+            
+            <div class="contents"> 
+                <div class="loc"> Wind Speed : </div>
+
+            </div>
+            <div class="contents"> 
+                <div class="loc"> Pressure : </div>
+
+            </div>
+            <div class="contents"> 
+                <div class="loc"> Humidity : </div>
+
+            </div>
+            <div class="contents"> 
+                <div class="loc"> UV Index : </div>
+
+            </div>
+            <div class="contents"> 
+                <div class="loc"> Feels Like : </div>
+
+            </div>
+            
+
+
+
+          </div>
+  </div>
+   </div>
+   
+
+    <script src="./script.js"></script>
+</body>
+</html>
